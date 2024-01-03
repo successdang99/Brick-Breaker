@@ -1,0 +1,172 @@
+:root{
+    background-color : rgb(29, 26, 26);
+}
+
+*{
+    height: 100vh; 
+    width: 56.25vh;
+    box-sizing: border-box;
+    margin:0 auto;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-size: 62.5%;
+    font-family: 'Nova Square', cursive;
+    overflow : hidden;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+}
+
+.myLogo{
+    height: 40vh; 
+    width: 50vh;
+    margin-bottom: 20vh;
+}
+
+.container{
+    height: 70vh;
+    width: 56.25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.flex-center{
+    justify-content: center;
+    align-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn{
+    font-size: 4vh;
+    padding: 0;
+    width: 30vh;
+    height: 10vh;
+    text-align: center;
+    margin-bottom: 3vh;
+    text-decoration: none;
+    color: rgb(29, 26, 26);
+    background: linear-gradient(90deg, rgb(18,92,255) 0%, rgb(0, 102, 255) 100%);
+    border-radius: 4px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 144, 244, 0.6);
+    transition: tranform 150ms;
+    transform: scale(1.03);
+}
+
+.plus{
+    font-size: 3vh !important;
+    width: 20vh !important;
+    height: 5vh !important;
+}
+
+.betsu{
+    font-size: 5vh !important;
+    height: 5vh !important;
+    margin: 5vh auto;
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.logogame{
+    height: 100%;
+    width: 100%;
+}
+
+.logogame:hover{
+    cursor: pointer;
+}
+
+.fa-home{
+    width: 15%;
+    height: 100%;
+    margin: 3% 2%;
+    font-size: 4vh !important;
+    color: rgb(28,26,26);
+}
+
+.containerIcon{
+    width : 30vh;
+    height: 90vh;
+}
+
+.item-link{
+    display : inline-block;
+    font-size: 8vh;
+    color:rgb(255, 0, 255);
+    text-decoration: none;
+    margin-top: 77vh;
+    width : 8vh;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerImage{
+    width : 50vh;
+    height: 65vh;
+    margin-bottom: 20vh;
+}
+
+.image-link{
+    display : inline-block;
+    text-decoration: none;
+    width : 40vh;
+    height: 24vh;
+    margin: 40vh 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-facebook-square, .fa-instagram-square{
+    margin: auto;
+    width: 8vh;
+    height: 8vh;
+    color:rgb(255, 0, 255);
+}
+
+.goHome{
+    font-size: 4vh !important;
+    height: 7vh !important;
+    color: rgba(0, 0, 0, 0.6);
+}
